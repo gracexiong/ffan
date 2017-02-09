@@ -1,0 +1,176 @@
+#wrapper{
+    
+    .content{
+        .banner_wrapper{
+            position: relative;
+            height:470px;
+            li{
+                position: absolute;
+                left:0;
+                top:0;
+                img{
+                    width:100%;
+                    height:470px;
+                }
+                a{
+                    width:718px;
+                    height:162px;
+                    position: absolute;
+                    left:91px;
+                    top:123px;
+                    color:#fff;
+                    text-align: center;
+                    .line1{
+                        font:60px "microsoft yahei";
+
+                    }
+                    .line2{
+                        font:30px "microsoft yahei";
+                    }
+                    span{
+                        width:67px;
+                        height:67px;
+                        position: absolute;
+                        right:0;
+                        top:58px;
+                        background:url(../images/more.png) no-repeat;
+                    }
+                }
+            }
+            .page_dotted{
+                height:15px;
+                position: absolute;
+                left:581px;
+                bottom:24px;
+                a{
+                    float: left;
+                    width:14px;
+                    height:14px;
+                    border: 1px solid #9c8b93;
+                    border-radius: 50%;
+                    margin-right: 28px;
+                    &:hover{
+                        background-color: #2abfff;
+                    }
+                }
+                a.active{
+                    background-color: #2abfff;
+                }
+            }
+            .popup2{
+                width:278px;
+                height:405px;
+                position: absolute;
+                right:134px;
+                bottom:31px;
+                overflow: hidden;
+                div{
+                    float: left;
+                    font:16px/37px "microsoft yahei";
+                    color:#fff;
+                    padding-top: 95px;
+                    padding-left: 11px;
+                    cursor: pointer;
+                }
+                .stage1{
+                    width:264px;
+                    height:37px;
+                    background-color:#e86a71;
+                    position: relative;
+                    &:hover{
+                        background-color: #f05858;
+                    }
+                    span{
+                        width:41px;
+                        height:44px;
+                        position: absolute;
+                        left:117px;
+                        top:32px;
+                        background: url(../images/icon-all.png) no-repeat -5px -201px;
+                    }
+                    
+                }
+                .stage2{
+                    width:125px;
+                    height:37px;
+                    background:#68b2d2;
+                    margin-right: 3px;
+                    margin-top: 3px;
+                    background-color: #68b2d2;
+                    position: relative;
+                    &:hover{
+                        background-color: #4bb3d8;
+                    }
+                    span{
+                        width:46px;
+                        height:47px;
+                        position: absolute;
+                        left:45px;
+                        top:31px;
+                        background: url(../images/icon-all.png) no-repeat -1px -247px;   
+                    }
+                }
+            }
+        }
+        .about{
+            @color1:#333;
+            @color2:#666;
+            @color3:#2abfff;
+            width:100%-74px-75px;
+            height:168px;
+            margin:22px 74px 23px 75px;
+            border-bottom: 1px solid #ccc;
+            h2{
+                    font:20px "microsoft yahei";
+                    color:@color1;
+                    margin-bottom: 16px;
+                }
+            .ffanApp{
+                width:275px;
+                height:123px;
+                *{
+                    float: left;
+                }
+                .list1{
+                    padding:4px 0 5px 0;
+                    .version{
+                        width:152px;
+                        height:28px;
+                        font:12px "microsoft yahei";
+                        border-left: 1px solid #ccc;
+                        padding-left: 10px;
+                        p{
+                           color:@color1; 
+                           font-family: "microsoft yahei"
+                        }
+                        span{
+                            color: @color3;
+                        }
+                    }
+                }
+                span.ic_ios{
+                    width:36px;
+                    height:28px;
+                    background:url(../images/ios.png) no-repeat center center;
+                }
+                span.ic_and{
+                    width:36px;
+                    height:28px;
+                    background:url(../images/and.png) no-repeat center center;
+                }
+            }
+            .marchant{
+                .ios{
+                    *{
+                        float:left;
+                    }
+                    p{
+                        width:120px;
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+

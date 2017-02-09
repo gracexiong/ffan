@@ -1,0 +1,161 @@
+#wrapper .content .banner_wrapper {
+  position: relative;
+  height: 470px;
+}
+#wrapper .content .banner_wrapper li {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#wrapper .content .banner_wrapper li img {
+  width: 100%;
+  height: 470px;
+}
+#wrapper .content .banner_wrapper li a {
+  width: 718px;
+  height: 162px;
+  position: absolute;
+  left: 91px;
+  top: 123px;
+  color: #fff;
+  text-align: center;
+}
+#wrapper .content .banner_wrapper li a .line1 {
+  font: 60px "microsoft yahei";
+}
+#wrapper .content .banner_wrapper li a .line2 {
+  font: 30px "microsoft yahei";
+}
+#wrapper .content .banner_wrapper li a span {
+  width: 67px;
+  height: 67px;
+  position: absolute;
+  right: 0;
+  top: 58px;
+  background: url(../images/more.png) no-repeat;
+}
+#wrapper .content .banner_wrapper .page_dotted {
+  height: 15px;
+  position: absolute;
+  left: 581px;
+  bottom: 24px;
+}
+#wrapper .content .banner_wrapper .page_dotted a {
+  float: left;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #9c8b93;
+  border-radius: 50%;
+  margin-right: 28px;
+}
+#wrapper .content .banner_wrapper .page_dotted a:hover {
+  background-color: #2abfff;
+}
+#wrapper .content .banner_wrapper .page_dotted a.active {
+  background-color: #2abfff;
+}
+#wrapper .content .banner_wrapper .popup2 {
+  width: 278px;
+  height: 405px;
+  position: absolute;
+  right: 134px;
+  bottom: 31px;
+  overflow: hidden;
+}
+#wrapper .content .banner_wrapper .popup2 div {
+  float: left;
+  font: 16px/37px "microsoft yahei";
+  color: #fff;
+  padding-top: 95px;
+  padding-left: 11px;
+  cursor: pointer;
+}
+#wrapper .content .banner_wrapper .popup2 .stage1 {
+  width: 264px;
+  height: 37px;
+  background-color: #e86a71;
+  position: relative;
+}
+#wrapper .content .banner_wrapper .popup2 .stage1:hover {
+  background-color: #f05858;
+}
+#wrapper .content .banner_wrapper .popup2 .stage1 span {
+  width: 41px;
+  height: 44px;
+  position: absolute;
+  left: 117px;
+  top: 32px;
+  background: url(../images/icon-all.png) no-repeat -5px -201px;
+}
+#wrapper .content .banner_wrapper .popup2 .stage2 {
+  width: 125px;
+  height: 37px;
+  background: #68b2d2;
+  margin-right: 3px;
+  margin-top: 3px;
+  background-color: #68b2d2;
+  position: relative;
+}
+#wrapper .content .banner_wrapper .popup2 .stage2:hover {
+  background-color: #4bb3d8;
+}
+#wrapper .content .banner_wrapper .popup2 .stage2 span {
+  width: 46px;
+  height: 47px;
+  position: absolute;
+  left: 45px;
+  top: 31px;
+  background: url(../images/icon-all.png) no-repeat -1px -247px;
+}
+#wrapper .content .about {
+  width: -49%;
+  height: 168px;
+  margin: 22px 74px 23px 75px;
+  border-bottom: 1px solid #ccc;
+}
+#wrapper .content .about h2 {
+  font: 20px "microsoft yahei";
+  color: #333333;
+  margin-bottom: 16px;
+}
+#wrapper .content .about .ffanApp {
+  width: 275px;
+  height: 123px;
+}
+#wrapper .content .about .ffanApp * {
+  float: left;
+}
+#wrapper .content .about .ffanApp .list1 {
+  padding: 4px 0 5px 0;
+}
+#wrapper .content .about .ffanApp .list1 .version {
+  width: 152px;
+  height: 28px;
+  font: 12px "microsoft yahei";
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
+}
+#wrapper .content .about .ffanApp .list1 .version p {
+  color: #333333;
+  font-family: "microsoft yahei";
+}
+#wrapper .content .about .ffanApp .list1 .version span {
+  color: #2abfff;
+}
+#wrapper .content .about .ffanApp span.ic_ios {
+  width: 36px;
+  height: 28px;
+  background: url(../images/ios.png) no-repeat center center;
+}
+#wrapper .content .about .ffanApp span.ic_and {
+  width: 36px;
+  height: 28px;
+  background: url(../images/and.png) no-repeat center center;
+}
+#wrapper .content .about .marchant .ios * {
+  float: left;
+}
+#wrapper .content .about .marchant .ios p {
+  width: 120px;
+  padding-left: 15px;
+}
