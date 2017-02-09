@@ -5,175 +5,24 @@
     </head>
     <style type="text/css">
         *{ margin: 0; padding: 0; list-style: none; }
-        /* .test{
-            width:682px;
-            height:664px;
-            background-color: #22c3aa;
-            margin:0 auto;
+        #box{
+            width:400px;
+            height:400px;
+            background-color: pink;
             overflow:hidden;
         }
-        .icon{
-            width:200px;
-            height:200px;
-            margin: 130px auto ;
-            margin-bottom: 40px;
-            border-radius: 50%;
-            overflow:hidden;
-        }
-        .icon img{
-            width:200px;
-        }
-        .name{
-            font:20px "microsoft yahei";
-            color:#fff;
-            text-align: center;
-        }
-        .p1{
-            font:16px/32px "microsoft yahei";
-            color:#fff;
-            text-align: center; 
-        }*/
-        .box{
-            margin: 20px auto;
-            width:200px;
-            height:200px;
-            background:red;
-            box-shadow: 0 0 2px 2px #000;
-        }
-        input{
-            background-color: #fff;
-
-        }
-        /* brand。csss */
-        .popup_cor{
-        position: absolute;
-        left:50%;
-        top:216px;
-        background-color: #fff;
-        z-index: 9999;
-        display:none;
-        -webkit-transform: translateX(-50%);
-           -moz-transform: translateX(-50%);
-            -ms-transform: translateX(-50%);
-             -o-transform: translateX(-50%);
-                transform: translateX(-50%);
-        width:690px;
-        height:518px;
-        border-radius: 5px;
-        margin:0 auto;
-        h3{
-            font:28px "microsoft yahei";
-            color:#000;
-            width:100%;
-            text-align: center;
-            padding-top: 24px ;
-            padding-bottom: 22px;
-        }
-        form{
-                padding-right: 174px;
-                label{
-                    display:block;
-                    width:100%;
-                    height:40px;
-                    margin-bottom: 18px;
-                    input{
-                        float:right;
-                        display:inline-block;
-                        width:332px;
-                        height:37px;
-                        border:1px solid #dadada;
-                        padding-left: 4px;
-                    }
-                    span{
-                        float:left;
-                        font:18px/40px "microsoft yahei";
-                        color:#333;
-                        width:176px;
-                        text-align: right;
-                        em{
-                            margin-right: 4px;
-                            color:red;
-                        }
-                    }
-                    p{
-                        float:left;
-                        font:14px "microsoft yahei";
-                        color:#999;
-                    }
-                }
-                
-               #submit{
-                    width:186px;
-                    height:42px;
-                    border-radius: 5px;
-                    background-color: #fff;
-                    border:1px solid #63d0ff;
-                    color:#63d0ff;
-                    text-align: center;
-                    font:20px/42px "microsoft yahei";
-                    margin-left: 250px;
-                    margin-top: 30px;
-               } 
-        }
-
-
-}
-.mask{
-    width:100%;
-    height:100%;
-    position: absolute;
-    left:0;
-    top:0;
-    background-color: rgba(0,0,0,.3);
-    display:none;
-}
-
+        
     </style>
     <body>
-    <div class="box"></div>
-    <input type="submit" />
-    <!-- <div class="test">
-        <div class="icon">
-            <img src="haha/xiong.jpg" alt="" />
+        <div id="box">
+            <img src="images/img1.jpg" height="390" width="667" alt="" />
         </div>
-        <p class="name">我叫韩永哲</p>
-        <p class="p1">前端工程师</p>
-        <p class="p1"><span id="birthday">0岁</span><span>大专</span></p>
-        <p class="p1">972839577@qq.com</p>
-        <p class="p1">gksdnfla.github.com</p>
-    </div> -->
-
-    <div class="popup_cor">
-            <h3>我要合作</h3>
-            <span></span>
-            <form action="">
-                <label for="name">    
-                    <span><em>*</em>公司名称：</span>      
-                    <input type="text" id="name" />
-                </label>
-                <label for="property">
-                    <span><em>*</em>企业性质：</span>      
-                    <input type="text" id="property" />
-                </label>
-                <label for="qulity">  
-                    <span><em>*</em>开店数量：</span>      
-                    <input type="text" id="qulity" /></label>
-                <label for="partener">
-                    <span><em>*</em>线下实体合作方：</span>
-                    <input type="text" id="partener" />
-                    <p>例如：***商圈等,如有多个请用逗号隔开</p>
-                </label>
-                <label for="who">     
-                    <span><em>*</em>联系人：</span>        
-                    <input type="text" id="who" />
-                </label>
-                <label for="number">  
-                    <span><em>*</em>练习电话： </span>     
-                    <input type="text" id="number" />
-                </label>
-                <input type="submit" value="提交"  id="submit"/>
-            </form>
-        </div>
-        <div class="mask"></div>
     </body>
+    <!-- <script type="text/javascript">
+    var oBox=document.getElementById("box");
+    
+    oBox.onclick=function(){
+        alert();
+    }
+    </script> -->
 </html>
