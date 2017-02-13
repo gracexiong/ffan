@@ -5,17 +5,90 @@
     </head>
     <style type="text/css">
         *{ margin: 0; padding: 0; list-style: none; }
-        #box{
-            width:400px;
-            height:400px;
-            background-color: pink;
+        .bg{
+            width:100%;
+            height:100%;
+            background-color: #c6edf2;
             overflow:hidden;
         }
-        
+        .wrapper{
+                width:681px;
+                height:381px;
+                border-radius: 30px;
+                overflow:hidden;
+                background-color: #fff;
+                margin:20px auto;
+        }
+        table{
+                border-collapse:collapse;
+                width:683px;
+                height:383px;
+                border-color: #ccc;
+                text-align: center;
+                margin-left: -1px;
+                margin-top: -1px;
+        }
+        table td:nth-child(1){
+            padding-left: 36px;
+            box-sizing: border-box;
+        }
+
+        table tr:nth-child(1){
+            background-color: #1fb3b9;
+            font:24px/54px "microsoft yahei";
+            color:#fff;
+
+        }
+        table tr:nth-child(2){
+            font:22px/60px "microsoft yahei";
+            color:#000;
+        }
+        table tr:nth-child(3){
+            font:22px/60px "microsoft yahei";
+            color:#000;
+        }
+        table tr:nth-child(4){
+            font:22px "microsoft yahei";
+            color:#000;
+            height:208px;
+        }
+        table tr td:nth-child(1){
+            width:383px;
+        }
+        table tr td:nth-child(2){
+            width:98px;
+        }
     </style>
     <body>
-        <div id="box">
-            <img src="images/img1.jpg" height="390" width="667" alt="" />
+        <div class="bg">
+            <div class="wrapper">
+                <table border="1">
+                    <tr>
+                        <td align="left">参与活动城市</td>
+                        <td>水</td>
+                        <td>电</td>
+                        <td>煤</td>
+                    </tr>
+                    <tr>
+                        <td align="left">上海/苏州</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="left">厦门/合肥/南昌</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="left">西安/成都/乐山/泸州<br />内江/巴中/达州/德阳<br />广安/广元/眉山/绵阳<br />南充/攀枝花/宜宾/资阳<br />自贡/安康/宝鸡/汉中/商洛</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </body>
     <!-- <script type="text/javascript">

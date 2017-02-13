@@ -1,0 +1,73 @@
+.content_brand {
+  width: 100%;
+}
+.content_brand .banner_wrapper {
+  width: 100%;
+  height: 370px;
+  position: relative;
+  overflow: hidden;
+}
+.content_brand .banner_wrapper img {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.content_brand .banner_wrapper h2 {
+  position: absolute;
+  left: 50%;
+  top: 52px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font: 54px "microsoft yahei";
+  color: #fff;
+}
+.content {
+  width: -50%;
+  height: 594px;
+  margin: 58px 75px 34px;
+}
+.content ul {
+  float: left;
+}
+.content ul li {
+  height: 30px;
+  padding: 0 10px;
+}
+.content ul li a {
+  float: left;
+  font: 16px/40px "microsoft yahei";
+  color: #333;
+}
+.content ul li a:hover {
+  font-weight: bold;
+}
+.content ul li .active {
+  font-weight: bold;
+}
+.content .ffan_direction {
+  width: 1070px;
+  float: right;
+}
+.content .ffan_direction h2 {
+  width: 148px;
+  font: 30px "microsoft yahei";
+  color: #2abfff;
+  float: left;
+}
+.content .ffan_direction div {
+  float: right;
+  width: 920px;
+  font: 16px/30px "microsoft yahei";
+  color: #333;
+  padding-top: 8px;
+}
+.content .ffan_direction div h3 {
+  font: bold 16px "microsoft yahei";
+}
