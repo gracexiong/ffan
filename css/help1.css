@@ -43,7 +43,10 @@
 .content {
   width: -50%;
   margin: 22px 75px 0 75px;
-  height: 661px;
+  /*  height:683px-22px; */
+}
+.content .hidden {
+  display: none;
 }
 .content .aside {
   width: 108px;
@@ -76,7 +79,6 @@
   font-weight: bold;
 }
 .content .ffan_service {
-  display: none;
   width: 996px;
   float: right;
 }
@@ -135,46 +137,96 @@
   color: #333;
   text-align: center;
 }
-.content .ffan_app {
+.content .items {
   width: 996px;
   float: right;
 }
-.content .ffan_app h2 {
-  font: 28px "microsoft yahei";
+.content .items h2 {
+  font: 30px "microsoft yahei";
   color: #333;
 }
-.content .ffan_app ul li {
-  width: 100%;
-  height: 69px;
+.content .items ul {
+  margin-bottom: 31px;
 }
-.content .ffan_app ul li p {
+.content .items ul li {
+  width: 100%;
+}
+.content .items ul li .answer {
+  overflow: hidden;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #ddd;
+}
+.content .items ul li .answer p {
+  font: 15px/38px "microsoft yahei";
+  color: #333;
+}
+.content .items ul li .list {
   height: 68px;
   border-bottom: 1px dashed #ddd;
 }
-.content .ffan_app ul li p h3 {
-  font: 15px/69px "microsoft yahei";
+.content .items ul li .list h3 {
+  font: 16px/69px "microsoft yahei";
   float: left;
 }
-.content .ffan_app ul li p span {
+.content .items ul li .list span {
   float: right;
   cursor: pointer;
   position: relative;
   padding-left: 14px;
   font: 16px "microsoft yahei";
   margin-top: 26px;
-  /* &:before{
-                            content:"";
-                            width:10px;
-                            height:5px;
-                            position: absolute;
-                            left:0;
-                            top:9px;
-                            background:url(../images/arrow.png) no-repeat ;
-                        }
-                        &.up:before{
-                            background-position: 0 -5px;
-                        }
-                        &.down:before{
-                            background-position: 0 0;
-                        } */
+}
+.content .items ul li .list span:before {
+  content: "";
+  width: 10px;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  top: 9px;
+  background: url(../images/arrow.png) no-repeat;
+}
+.content .items ul li .list span.up:before {
+  background-position: 0 -5px;
+}
+.content .items ul li .list span.down:before {
+  background-position: 0 0;
+}
+.content .items ul li .answer1 em {
+  font: 900 22px/52px "microsoft yahei";
+}
+.content .items ul li .answer3 .answer3_list {
+  margin-bottom: 6px;
+  overflow: hidden;
+}
+.content .items ul li .answer3 .answer3_list span {
+  width: 89px;
+  height: 31px;
+  background: url(../images/tipbg.png) no-repeat;
+  margin-top: 3px;
+  font: 15px/31px "microsoft yahei";
+  color: #333;
+  text-align: center;
+  margin-right: 12px;
+}
+.content .qa {
+  width: 996px;
+  float: right;
+}
+.content .qa h2 {
+  font: 28px "microsoft yahei";
+  color: #333;
+  margin-bottom: 6px;
+}
+.content .qa p {
+  font: 16px/28px "microsoft yahei";
+}
+.content .qa p span {
+  color: #2abfff;
+}
+.content .qa p:nth-child(even) {
+  color: #333;
+}
+.content .qa p:nth-child(odd) {
+  color: #999;
 }
