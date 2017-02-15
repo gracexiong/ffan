@@ -250,4 +250,25 @@
             color:#999;
         }
     }
+    .user_centerQ{
+        .qa{
+            p:nth-child(odd){
+                color:#333;
+            }
+            p:nth-child(even){
+                color:#999;
+                padding-left: 22px;
+                position: relative;
+                &:before{
+                    content: "答:";
+                    color:#2abfff;
+                    font:16px/28px "microsoft yahei";
+                    position: absolute;
+                    left:0;
+                    top:5px;
+                }
+            }
+        }
+    }
+    
 }

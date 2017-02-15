@@ -1,0 +1,132 @@
+.wrapper .header {
+  width: 100%;
+  height: 60px;
+  background-color: #3a98f8;
+}
+.wrapper .header h1 {
+  float: left;
+}
+.wrapper .header h1 a {
+  display: block;
+  overflow: hidden;
+}
+.wrapper .header h1 a img {
+  width: 87px;
+  margin: 8px 10px 0 90px;
+}
+.wrapper .header span {
+  float: left;
+  font: 17px/20px "microsoft yahei";
+  color: #fff;
+  margin-top: 20px;
+}
+.wrapper .content .banner {
+  position: relative;
+  width: 100%;
+  height: 467px;
+  background: url(../images/banner_007.jpg) no-repeat;
+}
+.wrapper .content .banner .login_box {
+  padding: 20px 20px 20px 20px ;
+  width: 260px;
+  height: 206px;
+  background-color: #fff;
+  position: absolute;
+  top: 147px;
+  right: 190px;
+}
+.wrapper .content .banner .login_box input {
+  font: 12px/32px "microsoft yahei";
+  height: 32px;
+  float: left;
+  margin-bottom: 10px;
+}
+.wrapper .content .banner .login_box .user {
+  width: 208px;
+  border: 1px solid #ccc;
+  padding-left: 50px;
+  color: #999;
+}
+.wrapper .content .banner .login_box .number {
+  background: url(../images/number.png) no-repeat 14px 9px;
+}
+.wrapper .content .banner .login_box .password {
+  background: url(../images/passworld.png) no-repeat 13px 9px;
+}
+.wrapper .content .banner .login_box .code {
+  width: 141px;
+  border: 1px solid #ccc;
+  padding-left: 12px;
+  margin-right: 7px;
+  color: #999;
+  margin-bottom: 20px;
+}
+.wrapper .content .banner .login_box .get_code {
+  width: 94px;
+  border: 1px solid #efb159;
+  color: #fff;
+  background-color: #ffbb59;
+  border-radius: 3px;
+}
+.wrapper .content .banner .login_box .login {
+  width: 258px;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #6eb3fa;
+  background-color: #7fbcfa;
+  margin-bottom: 14px;
+}
+.wrapper .content .banner .login_box a {
+  float: right;
+  font: 12px "microsoft yahei";
+  color: #337ab7;
+  text-align: center;
+}
+.wrapper .content .brand_show {
+  width: -273% -373px;
+  height: 200px;
+  padding: 0 373px;
+}
+.wrapper .content .brand_show .title {
+  position: relative;
+  width: 100%;
+  height: 80px;
+}
+.wrapper .content .brand_show .title span {
+  width: 83px;
+  height: 1px;
+  background-color: #e0e1e1;
+  position: absolute;
+  top: 42px;
+}
+.wrapper .content .brand_show .title .left {
+  left: 130px;
+}
+.wrapper .content .brand_show .title .right {
+  right: 164px;
+}
+.wrapper .content .brand_show .title h3 {
+  font: 18px "microsoft yahei";
+  color: #222;
+  position: absolute;
+  left: 230px;
+  top: 31px;
+}
+.wrapper .content .brand_show .brand img {
+  width: 98px;
+  height: 98px;
+  border: 1px solid #e0e1e1;
+  float: left;
+  margin-right: -1px;
+}
+.wrapper .footer {
+  height: 57px;
+  background-color: #bfc4ce;
+  padding-top: 13px;
+}
+.wrapper .footer p {
+  font: 11px/24px "microsoft yahei";
+  color: #fff;
+  text-align: center;
+}

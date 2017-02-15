@@ -230,3 +230,19 @@
 .content .qa p:nth-child(odd) {
   color: #999;
 }
+.content .user_centerQ .qa p:nth-child(odd) {
+  color: #333;
+}
+.content .user_centerQ .qa p:nth-child(even) {
+  color: #999;
+  padding-left: 22px;
+  position: relative;
+}
+.content .user_centerQ .qa p:nth-child(even):before {
+  content: "答:";
+  color: #2abfff;
+  font: 16px/28px "microsoft yahei";
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
