@@ -1,0 +1,288 @@
+#wrapper .header1 {
+  width: 100%;
+  height: 148px;
+}
+#wrapper .header1 .title {
+  height: 104px;
+}
+#wrapper .header1 .title h1 {
+  float: left;
+  margin: 21px 44px 0 77px;
+}
+#wrapper .header1 .title h1 a {
+  display: block;
+}
+#wrapper .header1 .title h1 a img {
+  width: 127px;
+}
+#wrapper .header1 .title h2 {
+  font: 23px/48px "microsoft yahei";
+  color: #1e698c;
+  border-left: 1px solid #c1c1c1;
+  float: left;
+  padding-left: 40px;
+  margin-top: 37px;
+}
+#wrapper .header1 .title .login_bar {
+  float: right;
+  padding-top: 45px;
+}
+#wrapper .header1 .title .login_bar a {
+  float: left;
+  font: 12px "microsoft yahei";
+}
+#wrapper .header1 .title .login_bar a:hover {
+  color: #2abfff;
+}
+#wrapper .header1 .title .login_bar .register {
+  color: #ff0000;
+  margin-right: 34px;
+}
+#wrapper .header1 .title .login_bar .login {
+  color: #333;
+  margin-right: 49px;
+}
+#wrapper .header1 .title .login_bar span {
+  float: right;
+  margin-right: 74px;
+  font: 18px "microsoft yahei";
+  padding-left: 26px;
+  position: relative;
+}
+#wrapper .header1 .title .login_bar span:before {
+  content: "";
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../images/header.png) no-repeat;
+}
+#wrapper .header1 .nav_bar {
+  background-color: #4f545e;
+}
+#wrapper .header1 .nav_bar ul {
+  margin-left: 75px;
+}
+#wrapper .header1 .nav_bar ul li {
+  float: left;
+}
+#wrapper .header1 .nav_bar ul li a {
+  display: block;
+  width: 120px;
+  font: 17px/44px "microsoft yahei";
+  color: #fff;
+  text-align: center;
+}
+#wrapper .header1 .nav_bar ul li a:hover {
+  background-color: #2abfff;
+}
+#wrapper .header1 .nav_bar ul li .active {
+  background-color: #2abfff;
+}
+#wrapper .content .banner_wrapper {
+  position: relative;
+  width: 100%;
+  height: 326px;
+  overflow: hidden;
+}
+#wrapper .content .banner_wrapper img {
+  position: absolute;
+  left: 50%;
+  top: -40px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+#wrapper .content .banner_wrapper h3 {
+  width: 100%;
+  font: 47px "microsoft yahei";
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 85px;
+  color: #fff;
+}
+#wrapper .content .banner_wrapper p {
+  width: 100%;
+  font: 30px "microsoft yahei";
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 150px;
+  text-align: center;
+}
+#wrapper .content .banner_wrapper a {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 53px;
+  width: 185px;
+  height: 52px;
+  background-color: #2abfff;
+  border-radius: 3px;
+  font: 23px/52px "microsoft yahei";
+  color: #fff;
+  text-align: center;
+}
+#wrapper .content .about {
+  height: 244px -80px;
+  padding: 40px 75px;
+}
+#wrapper .content .about div {
+  float: left;
+  width: 299px;
+  height: 164px;
+}
+#wrapper .content .about div h4 {
+  font: 23px "microsoft yahei";
+  text-align: center;
+  margin: 20px 0  10px 0;
+}
+#wrapper .content .about div p {
+  font: 13px "microsoft yahei";
+  color: #666;
+  text-align: center;
+}
+#wrapper .content .about div a {
+  width: 156px;
+  height: 44px;
+  background-color: #2abfff;
+  text-align: center;
+  color: #fff;
+  display: block;
+  font: 15px/44px "microsoft yahei";
+  border-radius: 3px;
+  margin: 20px 0 0 71px;
+}
+#wrapper .content .about div:not(:last-child) {
+  border-right: 1px solid #e8e8e8;
+}
+#wrapper .content .about div:last-child {
+  padding-left: 55px;
+  width: 244px;
+}
+#wrapper .content .about div:last-child h4 {
+  text-align: left;
+}
+#wrapper .content .about div:last-child p {
+  text-align: left;
+  line-height: 24px;
+  position: relative;
+}
+#wrapper .content .about div:last-child p:after {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 96px;
+  top: 6px;
+  background: url(../images/new.png) no-repeat;
+}
+#wrapper .content .step {
+  width: -50%;
+  height: 374px;
+  background: url(../images/processbg.jpg) no-repeat;
+  padding: 0 75px;
+  overflow: hidden;
+}
+#wrapper .content .step .title span {
+  font: 23px "microsoft yahei";
+  display: block;
+  margin: 60px auto;
+  text-align: center;
+  width: 326px;
+  position: relative;
+}
+#wrapper .content .step .title span:before {
+  content: "";
+  width: 103px;
+  height: 1px;
+  background-color: #c9c9c9;
+  position: absolute;
+  left: 0;
+  top: 15px;
+}
+#wrapper .content .step .title span:after {
+  content: '';
+  width: 103px;
+  height: 1px;
+  background-color: #c9c9c9;
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+#wrapper .content .step .list li {
+  width: 199px;
+  float: left;
+  padding: 0 20px;
+}
+#wrapper .content .step .list li div {
+  width: 89px;
+  height: 89px;
+  background: url(../images/process.png) no-repeat;
+  margin: 0 auto 18px;
+}
+#wrapper .content .step .list li div:first-child {
+  background-position: 0 0;
+}
+#wrapper .content .step .list li div:nth-child(2) {
+  background-position: -88px 0;
+}
+#wrapper .content .step .list li h5 {
+  font: 18px "microsoft yahei";
+  text-align: center;
+}
+#wrapper .content .step .list li p {
+  font: 12px/20px "microsoft yahei";
+  color: #666;
+  text-align: center;
+}
+#wrapper .content .brand_show {
+  height: 354px;
+}
+#wrapper .content .brand_show .title span {
+  font: 23px "microsoft yahei";
+  display: block;
+  margin: 60px auto;
+  text-align: center;
+  width: 326px;
+  position: relative;
+}
+#wrapper .content .brand_show .title span:before {
+  content: "";
+  width: 83px;
+  height: 1px;
+  background-color: #c9c9c9;
+  position: absolute;
+  left: 0;
+  top: 15px;
+}
+#wrapper .content .brand_show .title span:after {
+  content: '';
+  width: 83px;
+  height: 1px;
+  background-color: #c9c9c9;
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+#wrapper .content .brand_show .brand {
+  margin: 0 auto ;
+  width: 907px;
+}
+#wrapper .content .brand_show .brand a {
+  float: left;
+}
+#wrapper .content .brand_show .brand a img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ccc;
+  margin-right: -1px;
+}
