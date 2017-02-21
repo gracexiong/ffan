@@ -16,7 +16,7 @@
   width: 127px;
 }
 #wrapper .header1 .title h2 {
-  font: 23px/48px "microsoft yahei";
+  font: 24px/48px "microsoft yahei";
   color: #1e698c;
   border-left: 1px solid #c1c1c1;
   float: left;
@@ -29,7 +29,8 @@
 }
 #wrapper .header1 .title .login_bar a {
   float: left;
-  font: 12px "microsoft yahei";
+  font: 14px "microsoft yahei";
+  padding-top: 6px;
 }
 #wrapper .header1 .title .login_bar a:hover {
   color: #2abfff;
@@ -45,7 +46,7 @@
 #wrapper .header1 .title .login_bar span {
   float: right;
   margin-right: 74px;
-  font: 18px "microsoft yahei";
+  font: 24px "microsoft yahei";
   padding-left: 26px;
   position: relative;
 }
@@ -55,7 +56,7 @@
   height: 21px;
   position: absolute;
   left: 0;
-  top: 0;
+  top: 5px;
   background: url(../images/header.png) no-repeat;
 }
 #wrapper .header1 .nav_bar {
@@ -70,7 +71,7 @@
 #wrapper .header1 .nav_bar ul li a {
   display: block;
   width: 120px;
-  font: 17px/44px "microsoft yahei";
+  font: 18px/44px "microsoft yahei";
   color: #fff;
   text-align: center;
 }
