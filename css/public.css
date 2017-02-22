@@ -22,6 +22,9 @@
 #wrapper .header ul li a:hover {
   background-color: #e8e8e8;
 }
+#wrapper .header ul li.active a {
+  background-color: #e8e8e8;
+}
 #wrapper .header ul li.home a {
   padding-left: 40px;
   width: 98px;

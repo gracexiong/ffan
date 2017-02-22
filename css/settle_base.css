@@ -81,90 +81,54 @@
 #wrapper .header1 .nav_bar ul li .active {
   background-color: #2abfff;
 }
-#wrapper .content {
+#wrapper .content .banner_wrapper {
+  position: relative;
   width: 100%;
-  height: 574px;
+  height: 326px;
   overflow: hidden;
 }
-#wrapper .content .banner_wrapper {
-  height: 574px;
-  position: relative;
-}
 #wrapper .content .banner_wrapper img {
-  height: 574px;
   position: absolute;
   left: 50%;
-  top: 0;
+  top: -40px;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-#wrapper .content .banner_wrapper .login_form {
-  width: 360px;
-  height: 211px;
-  border-radius: 7px;
-  background-color: rgba(225, 225, 225, 0.7);
-  position: absolute;
-  left: 50%;
-  margin-left: -200px;
-  top: 50%;
-  margin-top: -115px;
-  box-shadow: 1px 1px 6px #000;
-  padding: 20px 20px 0 20px;
-}
-#wrapper .content .banner_wrapper .login_form input {
-  float: left;
-  width: 310px;
-  height: 50px;
-  border-radius: 7px;
-  font: 16px/50px "microsoft yahei";
-  color: #767676;
-  padding-left: 50px;
-  margin-bottom: 10px;
-  background-color: #fff;
-}
-#wrapper .content .banner_wrapper .login_form .code_form {
-  width: 210px;
-  padding-left: 20px;
-}
-#wrapper .content .banner_wrapper .login_form .phoneicon {
-  background: #ffffff url(../images/phoneicon.png) no-repeat 13px 12px;
-}
-#wrapper .content .banner_wrapper .login_form .lockicon {
-  background: #ffffff url(../images/lockicon.png) no-repeat 13px 12px;
-}
-#wrapper .content .banner_wrapper .login_form a {
-  float: left;
-  font-family: "microsoft yahei";
-}
-#wrapper .content .banner_wrapper .login_form .test_code {
-  width: 120px;
-  height: 50px;
-  text-align: center;
-  font: 16px/50px "microsoft yahei";
-  background-color: #2abfff;
-  border-radius: 7px;
-  margin-left: 10px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-#wrapper .content .banner_wrapper .login_form .register {
-  color: red;
-  margin-right: 252px;
-}
-#wrapper .content .banner_wrapper .login_btn a {
-  width: 400px;
-  height: 50px;
-  border-radius: 7px;
-  background-color: #2abfff;
-  font: 18px/50px "microsoft yahei";
+#wrapper .content .banner_wrapper h3 {
+  width: 100%;
+  font: 47px "microsoft yahei";
   text-align: center;
   position: absolute;
-  left: 50%;
-  margin-left: -200px;
-  top: 50%;
-  margin-top: 125px;
+  left: 0;
+  top: 85px;
   color: #fff;
+}
+#wrapper .content .banner_wrapper p {
+  width: 100%;
+  font: 30px "microsoft yahei";
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 150px;
+  text-align: center;
+}
+#wrapper .content .banner_wrapper a {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 53px;
+  width: 185px;
+  height: 52px;
+  background-color: #2abfff;
+  border-radius: 3px;
+  font: 23px/52px "microsoft yahei";
+  color: #fff;
+  text-align: center;
 }
