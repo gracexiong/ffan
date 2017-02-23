@@ -1,5 +1,4 @@
 #wrapper{
-    
     .content{
         .banner_wrapper{
             position: relative;
@@ -22,7 +21,6 @@
                     text-align: center;
                     .line1{
                         font:60px "microsoft yahei";
-
                     }
                     .line2{
                         font:30px "microsoft yahei";
@@ -37,6 +35,7 @@
                     }
                 }
             }
+            
             .page_dotted{
                 height:15px;
                 position: absolute;
@@ -117,9 +116,7 @@
             @color2:#666;
             @color3:#2abfff;
             width:100%-74px-75px;
-            height:168px;
             margin:22px 74px 23px 75px;
-            border-bottom: 1px solid #ccc;
             h2{
                     font:20px "microsoft yahei";
                     color:@color1;
@@ -160,14 +157,77 @@
                 }
             }
             .marchant{
-                .ios{
-                    *{
-                        float:left;
+                width:444px;
+                .ios,.and{
+                    width:217px;
+                }
+                .right_info{
+                        width:135px;
+                        h5,p{
+                            margin-left: 6px;
+                            position: relative;
+                            font:12px "microsoft yahei";
+                            color:#333;
+                            span{
+                                color:#2abfff;
+                            }
+                        }
+                        h5{
+                            padding-left: 23px;
+                            margin-top: 39px;
+                        }
+                        h5:before{
+                            display: block;
+                            content:"";
+                            width:16px;
+                            height:17px;
+                            background:url(../images/ios.png) no-repeat;
+                            position: absolute;
+                            left:0;
+                            top:0;
+                        }
+                }
+            }
+            .focus{
+                div{
+                    span{
+                        font:12px "microsoft yahei";
+                        color:#333;
+                        padding-left: 12px;
                     }
-                    p{
-                        width:120px;
-                        padding-left: 15px;
+                }
+                .wechatserver{
+                    margin-left: 6px;
+                    padding-right: 14px;
+                    border-right: 1px solid #ccc;
+                }
+                .weibo{
+                    div{
+                        img{
+                            margin-left: 16px;
+                            margin-bottom: 20px;
+                        }
                     }
+                }
+            }
+            .contact{
+                margin-left: 30px;
+                h3,p{
+                    font:15px/28px "microsoft yahei";
+                    color:#333;
+                }
+                p{
+                    padding-left: 19px;
+                    position: relative;
+                }
+                p:before{
+                    content:"";
+                    width:14px;
+                    height:16px;
+                    background:url(../images/icontel.png) no-repeat 0 0;
+                    position: absolute;
+                    left:0;
+                    top:7px;
                 }
             }
         }

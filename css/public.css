@@ -1,7 +1,7 @@
 #wrapper .header {
   width: 100%;
   height: 50px;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #ccc;
 }
 #wrapper .header img {
   width: 85px;
@@ -37,12 +37,15 @@
   left: 45px;
   top: 14px;
 }
+#wrapper .header ul li.merchant {
+  position: relative;
+}
 #wrapper .header ul li.merchant i {
   width: 18px;
   height: 17px;
   position: absolute;
   background: url(../images/icon-all.png) no-repeat 0 -560px;
-  left: 16px;
+  left: 13px;
   top: 17px;
 }
 #wrapper .header ul li.merchant span {
@@ -52,6 +55,19 @@
   background: url(../images/icon-all.png) no-repeat 0 -654px;
   right: 13px;
   top: 24px;
+}
+#wrapper .header ul li.merchant:after {
+  display: none;
+  content: "我是个人";
+  width: 93px;
+  height: 50px;
+  padding-left: 45px;
+  font: 14px/50px "microsoft yahei";
+  position: absolute;
+  left: 0;
+  top: 50px;
+  z-index: 9999;
+  background: #ffffff url(../images/icon-all.png) no-repeat 15px -596px;
 }
 #wrapper .header .popup1 {
   width: 138px;

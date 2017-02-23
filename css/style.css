@@ -109,9 +109,7 @@
 }
 #wrapper .content .about {
   width: -49%;
-  height: 168px;
   margin: 22px 74px 23px 75px;
-  border-bottom: 1px solid #ccc;
 }
 #wrapper .content .about h2 {
   font: 20px "microsoft yahei";
@@ -152,10 +150,73 @@
   height: 28px;
   background: url(../images/and.png) no-repeat center center;
 }
-#wrapper .content .about .marchant .ios * {
-  float: left;
+#wrapper .content .about .marchant {
+  width: 444px;
 }
-#wrapper .content .about .marchant .ios p {
-  width: 120px;
-  padding-left: 15px;
+#wrapper .content .about .marchant .ios,
+#wrapper .content .about .marchant .and {
+  width: 217px;
+}
+#wrapper .content .about .marchant .right_info {
+  width: 135px;
+}
+#wrapper .content .about .marchant .right_info h5,
+#wrapper .content .about .marchant .right_info p {
+  margin-left: 6px;
+  position: relative;
+  font: 12px "microsoft yahei";
+  color: #333;
+}
+#wrapper .content .about .marchant .right_info h5 span,
+#wrapper .content .about .marchant .right_info p span {
+  color: #2abfff;
+}
+#wrapper .content .about .marchant .right_info h5 {
+  padding-left: 23px;
+  margin-top: 39px;
+}
+#wrapper .content .about .marchant .right_info h5:before {
+  display: block;
+  content: "";
+  width: 16px;
+  height: 17px;
+  background: url(../images/ios.png) no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#wrapper .content .about .focus div span {
+  font: 12px "microsoft yahei";
+  color: #333;
+  padding-left: 12px;
+}
+#wrapper .content .about .focus .wechatserver {
+  margin-left: 6px;
+  padding-right: 14px;
+  border-right: 1px solid #ccc;
+}
+#wrapper .content .about .focus .weibo div img {
+  margin-left: 16px;
+  margin-bottom: 20px;
+}
+#wrapper .content .about .contact {
+  margin-left: 30px;
+}
+#wrapper .content .about .contact h3,
+#wrapper .content .about .contact p {
+  font: 15px/28px "microsoft yahei";
+  color: #333;
+}
+#wrapper .content .about .contact p {
+  padding-left: 19px;
+  position: relative;
+}
+#wrapper .content .about .contact p:before {
+  content: "";
+  width: 14px;
+  height: 16px;
+  background: url(../images/icontel.png) no-repeat 0 0;
+  position: absolute;
+  left: 0;
+  top: 7px;
 }

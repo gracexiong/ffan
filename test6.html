@@ -3,35 +3,36 @@
     <head>
         <meta charset="utf-8">
     </head>
+    <style type="text/css">
+        *{ margin: 0; padding: 0; list-style: none; }
+    
+        ol{
+            width:100px;
+            padding:93px 0 93px 0;
+            position: relative;
+        }
+        ol:before{
+            content:"";
+            width:1px;
+            height:260px;
+            background-color: red;
+            position: absolute;
+            left: 10px;
+            top:0;
+        }
+        li{
+            width:130px-30px;
+            height:22px;
+            margin-bottom: 30px;
+            background:url(images/navpoint.png) no-repeat 0 0;
+            padding-left: 30px;
+            position: relative;
+        }
+    </style>
     <body>
-    <script type="text/javascript">
-       /*var name = "The Window";
-    　　　　var object = {
-        　　　　name : "My Object",
-        　　　　getNameFunc : function(){
-        　　　　　　return function(){
-        　　　　　　　　return this.name;
-        　　　　　　};
-        　　　　}
-    　　　　};
-　　 alert(object.getNameFunc());*/
-        alert()
-        var name = "The Window";
-        　　var object = {
-        　　　　name : "My Object",
-        　　　　getNameFunc : function(){
-        　　　　　　var that = this;
-        　　　　　　return function(){
-        　　　　　　　　return that.name;
-        　　　　　　};
-        　　　　}
-        　　};
-        alert(object.getNameFunc()());
-
-        (function(){
-            return that.name;
-        })();
-
-    </script>
+        <ol>
+            <li>首页</li>
+            <li>会员平台</li>
+        </ol>
     </body>
 </html>

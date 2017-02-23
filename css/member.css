@@ -1,0 +1,73 @@
+.content .view_box {
+  width: 100%;
+  height: 612px;
+  overflow: hidden;
+  position: relative;
+}
+.content .view_box ul li {
+  position: relative;
+  height: 612px;
+  background-color: red;
+  overflow: hidden;
+}
+.content .view_box ul li img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.content .view_box ol {
+  left: 43px;
+  top: 56px;
+  position: absolute;
+  width: 22px;
+  padding: 93px 0 93px 0;
+}
+.content .view_box ol li {
+  width: 21px;
+  height: 21px;
+  background-color: #908e8f;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  position: relative;
+}
+.content .view_box ol li:after {
+  content: "";
+  width: 1px;
+  height: 30px;
+  background-color: #a5a5a5;
+  position: absolute;
+  left: 10px;
+  top: 23px;
+}
+.content .view_box ol li.active {
+  background: url(../images/navpoint.png) no-repeat 0 -23px;
+}
+.content .view_box ol li.nomargin:after {
+  content: "";
+  width: 0;
+  height: 0;
+}
+.content .view_box ol:before {
+  content: "";
+  width: 1px;
+  height: 93px;
+  background-color: #a5a5a5;
+  position: absolute;
+  left: 10px;
+  top: 0;
+}
+.content .view_box ol:after {
+  content: "";
+  width: 1px;
+  height: 93px;
+  background-color: #a5a5a5;
+  position: absolute;
+  left: 10px;
+  top: 328px;
+}
