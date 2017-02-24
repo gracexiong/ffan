@@ -1,0 +1,26 @@
+.content .view_box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.content .view_box ul li {
+  position: relative;
+  width: 100%;
+  height: 612px;
+  overflow: hidden;
+}
+.content .view_box ul li .card_bg {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.content .view_box ul li p {
+  width: 100%;
+  height: 215px;
+}
