@@ -2,16 +2,19 @@
   position: relative;
   height: 470px;
 }
-#wrapper .content .banner_wrapper li {
+#wrapper .content .banner_wrapper ul {
   position: absolute;
   left: 0;
   top: 0;
 }
-#wrapper .content .banner_wrapper li img {
+#wrapper .content .banner_wrapper ul li {
+  float: left;
+}
+#wrapper .content .banner_wrapper ul li img {
   width: 100%;
   height: 470px;
 }
-#wrapper .content .banner_wrapper li a {
+#wrapper .content .banner_wrapper ul li a {
   width: 718px;
   height: 162px;
   position: absolute;
@@ -20,13 +23,13 @@
   color: #fff;
   text-align: center;
 }
-#wrapper .content .banner_wrapper li a .line1 {
+#wrapper .content .banner_wrapper ul li a .line1 {
   font: 60px "microsoft yahei";
 }
-#wrapper .content .banner_wrapper li a .line2 {
+#wrapper .content .banner_wrapper ul li a .line2 {
   font: 30px "microsoft yahei";
 }
-#wrapper .content .banner_wrapper li a span {
+#wrapper .content .banner_wrapper ul li a span {
   width: 67px;
   height: 67px;
   position: absolute;
