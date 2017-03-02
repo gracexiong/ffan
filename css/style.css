@@ -8,6 +8,7 @@
   top: 0;
 }
 #wrapper .content .banner_wrapper ul li {
+  position: relative;
   float: left;
 }
 #wrapper .content .banner_wrapper ul li img {

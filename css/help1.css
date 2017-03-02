@@ -72,9 +72,6 @@
   font: 16px/30px "microsoft yahei";
   color: #333;
 }
-.content .aside ul li a:hover {
-  font-weight: bold;
-}
 .content .aside ul li .active {
   font-weight: bold;
 }

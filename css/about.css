@@ -18,26 +18,24 @@
 }
 .content {
   width: -50%;
-  height: 193px;
   margin: 58px 75px 34px;
 }
 .content ul {
   float: left;
 }
 .content ul li {
-  height: 30px;
   padding: 0 10px;
+  line-height: 38px;
 }
 .content ul li a {
-  float: left;
   font: 16px/40px "microsoft yahei";
   color: #333;
 }
-.content ul li a:hover {
-  font-weight: bold;
-}
 .content ul li .active {
   font-weight: bold;
+}
+.content .hide {
+  display: none;
 }
 .content .ffan_info {
   width: 1070px;
@@ -55,4 +53,68 @@
   font: 16px/30px "microsoft yahei";
   color: #333;
   padding-top: 8px;
+}
+.content .ffan_news {
+  width: 1070px;
+  float: right;
+}
+.content .ffan_news .news_list {
+  margin: 0 10px;
+}
+.content .ffan_news .news_list .list {
+  height: 190px;
+  border-bottom: 1px dotted #cfcfcf;
+  padding: 0;
+}
+.content .ffan_news .news_list .list .title {
+  width: 100%;
+  display: block;
+  font: 30px "microsoft yahei";
+  color: #000;
+  margin-top: 40px;
+}
+.content .ffan_news .news_list .list .title:hover {
+  text-decoration: underline;
+}
+.content .ffan_news .news_list .list .nomargin {
+  margin-top: 0;
+}
+.content .ffan_news .news_list .list .time {
+  font: 14px "microsoft yahei";
+  color: #666;
+  margin-top: 10px;
+}
+.content .ffan_news .news_list .list .article {
+  font: 16px/30px "microsoft yahei";
+  color: #333;
+}
+.content .ffan_news .news_list .list .article a {
+  display: inline-block;
+  color: #2abfff;
+}
+.content .ffan_news .news_list .list .article a:hover {
+  text-decoration: underline;
+}
+.content .ffan_news .news_list .top {
+  height: 195px;
+}
+.content .ffan_direction {
+  width: 1070px;
+  float: right;
+}
+.content .ffan_direction h2 {
+  width: 148px;
+  font: 30px "microsoft yahei";
+  color: #2abfff;
+  float: left;
+}
+.content .ffan_direction div {
+  float: right;
+  width: 920px;
+  font: 16px/30px "microsoft yahei";
+  color: #333;
+  padding-top: 8px;
+}
+.content .ffan_direction div h3 {
+  font: bold 16px "microsoft yahei";
 }

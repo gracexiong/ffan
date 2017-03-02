@@ -18,20 +18,16 @@
 }
 .content{
     width:100%-150px;
-    height:285px-58px-34px;
+    
     margin:58px 75px 34px;
     ul{
         float: left;
         li{
-            height:30px;
             padding:0 10px;
+            line-height: 38px;
             a{
-                float: left;
                 font:16px/40px "microsoft yahei";
                 color:#333;
-                &:hover{
-                    font-weight: bold;
-                }
             }
             .active{
                 font-weight: bold;
@@ -39,7 +35,76 @@
             
         }
     }
+    .hide{
+        display:none;
+    }
     .ffan_info{
+        width:1070px;
+        float: right;
+        
+        h2{
+            width:148px;
+            font:30px "microsoft yahei";
+            color:#2abfff;
+            float: left;
+        }
+        p{
+            float: right;
+            width:920px;
+            font:16px/30px "microsoft yahei";
+            color:#333;
+            padding-top: 8px;
+
+        }
+    }
+    .ffan_news{
+       
+        width:1070px;
+        float: right;
+        .news_list{
+            margin:0 10px;
+            .list{
+                height:240px-40px-10px;
+                border-bottom: 1px dotted #cfcfcf;
+                padding:0;
+                .title{
+                    width:100%;
+                    display: block;
+                    font:30px "microsoft yahei";
+                    color:#000;
+                    margin-top: 40px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+                .nomargin{
+                    margin-top: 0;
+                }
+                .time{
+                    font:14px "microsoft yahei";
+                    color:#666;
+                    margin-top: 10px;
+                }
+                .article{
+                    font:16px/30px "microsoft yahei";
+                    color:#333;
+                    a{
+                        display:inline-block;
+                        color:#2abfff;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .top{
+                height:240px-45px;
+            }
+        }
+        
+        
+    }
+    .ffan_direction{
         width:1070px;
         float: right;
 
@@ -49,7 +114,10 @@
             color:#2abfff;
             float: left;
         }
-        p{
+        div{
+            h3{
+                font: bold 16px "microsoft yahei";
+            }
             float: right;
             width:920px;
             font:16px/30px "microsoft yahei";
