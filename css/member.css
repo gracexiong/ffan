@@ -4,6 +4,12 @@
   overflow: hidden;
   position: relative;
 }
+.content .view_box ul {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 .content .view_box ul li {
   position: relative;
   height: 612px;
