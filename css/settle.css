@@ -152,15 +152,20 @@
   text-align: center;
 }
 #wrapper .content .about div a {
-  width: 156px;
-  height: 44px;
+  width: 154px;
+  height: 42px;
   background-color: #2abfff;
+  border: 1px solid #2abfff;
   text-align: center;
   color: #fff;
   display: block;
   font: 15px/44px "microsoft yahei";
   border-radius: 3px;
   margin: 20px 0 0 71px;
+}
+#wrapper .content .about div a:hover {
+  background-color: white;
+  color: #2abfff;
 }
 #wrapper .content .about div:not(:last-child) {
   border-right: 1px solid #e8e8e8;

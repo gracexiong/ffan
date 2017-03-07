@@ -5,6 +5,7 @@
   position: relative;
 }
 .content .view_box ul {
+  transition: 1s;
   width: 100%;
   position: absolute;
   left: 0;
@@ -60,7 +61,7 @@
 .content .view_box ol:before {
   content: "";
   width: 1px ;
-  height: 312px;
+  height: 440px;
   background-color: #a5a5a5;
   position: absolute;
   left: 11px;
