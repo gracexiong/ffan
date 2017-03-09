@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-02 17:02:34
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-07 16:29:26
+* @Last Modified time: 2017-03-08 09:53:49
 */
 
 $(document).ready(function() {
@@ -14,23 +14,25 @@ $(document).ready(function() {
         playCheck=false;
     }
     function fnDown(){
-        $(".view_box ul").css("top",-oIndex*oH+'px');
-        $(".view_box ol li").removeClass("active");
-        $(".view_box ol li:eq("+oIndex+")").addClass("active");
         oIndex++;  
         if(oIndex>aLi.length-1){
             oIndex=aLi.length-1;
         }
-        timer=setTimeout(moveEnd, 700);
-    }
-    function fnUp(){
         $(".view_box ul").css("top",-oIndex*oH+'px');
         $(".view_box ol li").removeClass("active");
         $(".view_box ol li:eq("+oIndex+")").addClass("active");
+        
+        
+        timer=setTimeout(moveEnd, 700);
+    }
+    function fnUp(){
         oIndex--;
         if(oIndex<0){
             oIndex=0;
         }
+        $(".view_box ul").css("top",-oIndex*oH+'px');
+        $(".view_box ol li").removeClass("active");
+        $(".view_box ol li:eq("+oIndex+")").addClass("active");
         timer=setTimeout(moveEnd, 700);
     }
     function scroll(ev){

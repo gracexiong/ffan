@@ -57,6 +57,7 @@
   color: #333;
   padding-bottom: 22px;
   border-bottom: 1px solid #ddd;
+  cursor: pointer;
 }
 .content .aside ul li {
   border-bottom: 1px solid #ddd;

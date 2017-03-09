@@ -2,37 +2,25 @@
 * @Author: Marte
 * @Date:   2017-03-02 15:19:36
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-02 17:02:19
+* @Last Modified time: 2017-03-09 15:17:06
 */
 
 $(document).ready(function(){
-    $(".content .aside ul li a").click(function(){
-        $(".content ul li a").removeClass("active");
-        $(this).addClass("active");
-    })
-    $(".content .aside .ffan_app").click(function(){
-        $(".content .right_ffan .item1").addClass("hidden");
-        $(".content div.ffan_app").removeClass("hidden");
-        
+    $(".aside ul a").each(function(index,element){
+        $(element).click(function(){
+            $(".aside ul a").removeClass("active");
+            $(element).addClass("active");
+            $(".right_ffan>div").addClass("hidden").eq(index+1).removeClass("hidden");
+        });
     });
-    $(".content .aside .commonQ").click(function(){
-        $(".content .right_ffan .item1").addClass("hidden");
-        $(".content div.commonQ").removeClass("hidden");
+    $(".aside > h3").click(function(){
+        $(".right_ffan>div").addClass("hidden");
+        $(".ffan_service").removeClass("hidden");
     });
-    $(".content .aside .brand_cor").click(function(){
-        $(".content .right_ffan .item1").addClass("hidden");
-        $(".content div.brand_cor").removeClass("hidden");
+    $(".right_ffan .items .list>span").toggle(function(){
+        $(this).removeClass().addClass("down").html("关闭答案").parent().siblings(".answer").removeClass("hidden");
+    },function(){
+        $(this).removeClass().addClass("up").html("展开答案").parent().siblings(".answer").addClass("hidden");
     });
-    $(".content .aside .tradeArea_cor").click(function(){
-        $(".content .right_ffan .item1").addClass("hidden");
-        $(".content div.tradeArea_cor").removeClass("hidden");
-    });
-    $(".content .aside .user_centerQ").click(function(){
-        $(".content .right_ffan .item1").addClass("hidden");
-        $(".content div.user_centerQ").removeClass("hidden");
-    });
-    $(".content .aside .user_center").click(function(){
-        $(".content .right_ffan .item1").addClass("hidden");
-        $(".content div.user_center").removeClass("hidden");
-    });
+    
 });
